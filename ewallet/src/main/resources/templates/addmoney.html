@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Add Money</title>
+    <link rel="stylesheet" th:href="@{/css/Css.css}">
+</head>
+<body>
+
+<div class="container">
+    <h2>Add Money</h2>
+
+    <form th:action="@{/addmoney}" method="post">
+        <label>Amount</label>
+        <input type="number" name="amount" placeholder="Enter amount" required>
+
+        <button type="submit">Add</button>
+    </form>
+
+    <p>
+        <a th:href="@{/dashboard}">Back to Dashboard</a>
+    </p>
+</div>
+
+</body>
+</html>

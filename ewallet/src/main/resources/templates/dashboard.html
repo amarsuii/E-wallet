@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Dashboard</title>
+    <link rel="stylesheet" th:href="@{/css/home.css}">
+</head>
+<body>
+
+<div class="home-container">
+    <h1>Dashboard</h1>
+
+    <div class="home-links">
+        <a th:href="@{/balance}">Check Balance</a>
+        <a th:href="@{/addmoney}" class="register">Add Money</a>
+    </div>
+
+    <br>
+
+    <div class="home-links">
+        <a th:href="@{/history}">Transaction History</a>
+        <a th:href="@{/logout}" class="register">Logout</a>
+    </div>
+</div>
+
+</body>
+</html>

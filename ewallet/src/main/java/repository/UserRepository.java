@@ -1,0 +1,8 @@
+package com.app.ewallet.repository;
+
+import com.app.ewallet.model.User;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface UserRepository extends JpaRepository<User, Long> {
+    User findByEmailIgnoreCase(String email);
+}

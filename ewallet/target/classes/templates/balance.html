@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Balance</title>
+    <link rel="stylesheet" th:href="@{/css/Css.css}">
+</head>
+<body>
+
+<div class="container">
+    <h2>Your Balance</h2>
+
+    <h3 th:text="'₹ ' + ${balance}"></h3>
+
+    <p>
+        <a th:href="@{/dashboard}">Back to Dashboard</a>
+    </p>
+</div>
+
+</body>
+</html>

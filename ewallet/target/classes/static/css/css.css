@@ -1,0 +1,105 @@
+/* ===== RESET ===== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI", Arial, sans-serif;
+}
+
+/* ===== PAGE BACKGROUND ===== */
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #6f7ae0, #7a5fb5);
+}
+
+/* ===== WRAPPER FOR MULTIPLE CARDS ===== */
+.wrapper {
+    display: flex;
+    gap: 30px;
+}
+
+/* ===== LOGIN CARD ===== */
+.container {
+    background: #ffffff;
+    width: 360px;
+    padding: 30px 28px;
+    border-radius: 14px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+}
+
+/* ===== TITLE ===== */
+.container h2 {
+    text-align: center;
+    font-size: 26px;
+    margin-bottom: 25px;
+    color: #222;
+}
+
+/* ===== LABELS ===== */
+.container label {
+    display: block;
+    margin-bottom: 6px;
+    font-weight: 600;
+    color: #444;
+}
+
+/* ===== INPUTS ===== */
+.container input {
+    width: 100%;
+    padding: 12px 14px;
+    margin-bottom: 18px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 15px;
+    outline: none;
+}
+
+.container input:focus {
+    border-color: #6f7ae0;
+}
+
+/* ===== BUTTON ===== */
+.container button {
+    width: 100%;
+    padding: 12px;
+    background: #6f7ae0;
+    border: none;
+    border-radius: 8px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.container button:hover {
+    background: #5e69d6;
+}
+
+/* ===== ERROR MESSAGE ===== */
+.error {
+    color: #e53935;
+    text-align: center;
+    margin-bottom: 12px;
+    font-size: 14px;
+}
+
+/* ===== FOOTER TEXT ===== */
+.container p {
+    text-align: center;
+    margin-top: 18px;
+    font-size: 14px;
+}
+
+.container a {
+    color: #6f7ae0;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.container a:hover {
+    text-decoration: underline;
+}

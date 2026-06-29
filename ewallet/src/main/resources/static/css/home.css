@@ -1,0 +1,68 @@
+/* ===== RESET ===== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI", Arial, sans-serif;
+}
+
+/* ===== PAGE BACKGROUND ===== */
+body {
+    min-height: 100vh;
+    background: linear-gradient(135deg, #6f7ae0, #7a5fb5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* ===== MAIN CARD ===== */
+.home-container {
+    background: #ffffff;
+    width: 520px;
+    padding: 40px;
+    border-radius: 16px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.25);
+    text-align: center;
+}
+
+/* ===== TITLE ===== */
+.home-container h1 {
+    font-size: 32px;
+    color: #222;
+    margin-bottom: 30px;
+}
+
+/* ===== BUTTON GROUP ===== */
+.home-links {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+/* ===== BUTTONS ===== */
+.home-links a {
+    padding: 12px 30px;
+    background: #6f7ae0;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    transition: background 0.3s ease;
+}
+
+.home-links a:hover {
+    background: #5e69d6;
+}
+
+/* ===== SECONDARY BUTTON ===== */
+.home-links a.register {
+    background: #ffffff;
+    color: #6f7ae0;
+    border: 2px solid #6f7ae0;
+}
+
+.home-links a.register:hover {
+    background: #6f7ae0;
+    color: #ffffff;
+}
